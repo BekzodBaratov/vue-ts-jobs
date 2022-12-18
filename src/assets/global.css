@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 100%;
+}
+body {
+  /* font-family: sans-serif; */
+  background-color: aquamarine;
+}
+
+@media (min-width: 280px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 115%;
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 130%;
+  }
+}
